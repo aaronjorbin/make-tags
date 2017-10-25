@@ -1,0 +1,34 @@
+#root {
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+.nav-links{
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.nav-links a {
+	padding: 20px;
+}
+
+#prevPage {
+	 order: 2;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+
+}
+
+details {
+	max-width: 200px;
+	width: 100%;
+	margin: 10px;
+}
